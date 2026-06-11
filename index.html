@@ -3,528 +3,759 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quality Auto Care | Trusted Auto Repair in Orange, CA</title>
-    <meta name="description" content="Quality Auto Care - Orange, CA's trusted auto repair shop. Quality you can trust. FREE 21-point inspection with any service. Oil changes, brakes, engine repair & more. Call (657) 223-6776.">
-    <meta name="keywords" content="auto repair Orange CA, car repair Orange, oil change, brake repair, honest mechanic, Quality Auto Care, W Struck Ave">
+    <title>Quality Auto Care | Your Family's Safety Is Our Business | Orange, CA</title>
+    <meta name="description" content="Quality Auto Care — Orange, CA's family-first auto repair. Your family's safety is our business. FREE safety inspection with every service. 10+ years of honest care. Call (657) 223-6776.">
+    <meta name="keywords" content="auto repair Orange CA, family auto repair, safe car repair, honest mechanic Orange, oil change, brake repair, safety inspection, Quality Auto Care, W Struck Ave">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23166534'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-family='serif' font-weight='700' font-size='14' fill='%23fefce8'%3EQA%3C/text%3E%3C/svg%3E">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Quality Auto Care — Your Family's Safety Is Our Business">
+    <meta property="og:description" content="Orange, CA's family-first auto repair. FREE safety inspection with every service. 10+ years of honest care. Call (657) 223-6776.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qualityautocare.com">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Quality Auto Care">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "Quality Auto Care",
+        "telephone": "+1-657-223-6776",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1119 W Struck Ave",
+            "addressLocality": "Orange",
+            "addressRegion": "CA",
+            "postalCode": "92867",
+            "addressCountry": "US"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "08:00",
+                "closes": "14:00"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "reviewCount": "150"
+        },
+        "priceRange": "$$",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Auto Repair Services",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Oil Change & Lube"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Brake Service & Repair"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Engine Repair & Diagnostics"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Transmission Service"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC & Heating"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tire Sales & Alignment"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Electrical & Battery"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Suspension & Steering"}}
+            ]
+        }
+    }
+    </script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- Scroll Progress Bar -->
     <div class="scroll-progress" id="scrollProgress"></div>
 
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container top-bar-inner">
-            <div class="top-bar-left">
-                <span class="top-bar-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                    <a href="tel:6572236776">(657) 223-6776</a>
-                </span>
-                <span class="top-bar-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                    1119 W Struck Ave, Orange, CA
-                </span>
-            </div>
-            <div class="top-bar-right">
-                <span class="top-bar-item">Mon-Fri 8AM-5:30PM, Sat 8AM-2PM</span>
-            </div>
-        </div>
-    </div>
-
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-inner">
-            <a href="#" class="logo">
-                <span class="logo-icon">QA</span>
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <a href="#" class="logo" aria-label="Quality Auto Care Home">
+                <div class="logo-shield">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fefce8" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
                 <div class="logo-text">
                     <span class="logo-name">Quality Auto Care</span>
-                    <span class="logo-tagline">Quality You Can Trust in Orange, CA</span>
+                    <span class="logo-sub">Your Family's Safety Is Our Business</span>
                 </div>
             </a>
-            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#services" data-section="services">Services</a></li>
-                <li><a href="#why-us" data-section="why-us">Why Us</a></li>
-                <li><a href="#reviews" data-section="reviews">Reviews</a></li>
-                <li><a href="#about" data-section="about">About</a></li>
-                <li><a href="#contact" class="nav-cta" data-section="contact">Schedule Now</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <div class="hero-particles" id="heroParticles"></div>
-            <div class="hero-badge">FREE 21-Point Inspection With Any Service</div>
-            <h1>Quality Auto Repair You Can <span class="highlight">Actually Trust.</span><br>No Gimmicks. No Surprises.</h1>
-            <p class="hero-sub">Quality Auto Care in Orange, CA is where honest mechanics work on your car like it's their own. We explain what's wrong, what it costs, and we never upsell repairs you don't need. Come see why Orange drivers keep coming back.</p>
-            <div class="hero-ctas">
-                <a href="tel:6572236776" class="btn btn-primary btn-lg btn-pulse">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                    Call (657) 223-6776
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#safety-standard">Our Standard</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#health-timeline">Car Health</a></li>
+                    <li><a href="#family-reviews">Reviews</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="open-indicator" id="openIndicator" aria-live="polite">
+                    <span class="open-dot"></span>
+                    <span class="open-text">Checking...</span>
+                </div>
+                <a href="tel:6572236776" class="header-phone">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <span>(657) 223-6776</span>
                 </a>
-                <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Get a Free Quote</a>
-            </div>
-            <div class="hero-trust">
-                <div class="trust-item">
-                    <div class="trust-score">4.5</div>
-                    <div class="trust-label">Yelp Rating<br><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span></div>
-                </div>
-                <div class="trust-divider"></div>
-                <div class="trust-item">
-                    <div class="trust-score" data-count="10">10+</div>
-                    <div class="trust-label">Years in<br>Business</div>
-                </div>
-                <div class="trust-divider"></div>
-                <div class="trust-item">
-                    <div class="trust-score" data-count="3000">3,000+</div>
-                    <div class="trust-label">Cars<br>Serviced</div>
-                </div>
-                <div class="trust-divider"></div>
-                <div class="trust-item">
-                    <div class="trust-score">FREE</div>
-                    <div class="trust-label">21-Point<br>Inspection</div>
-                </div>
+                <a href="#contact" class="btn btn-sm btn-primary nav-cta-btn">Schedule Visit</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="ham-line"></span>
+                    <span class="ham-line"></span>
+                    <span class="ham-line"></span>
+                </button>
             </div>
         </div>
-    </section>
+    </header>
 
-    <!-- Urgency Banner -->
-    <section class="urgency-banner" id="urgency-banner">
-        <div class="container">
-            <div class="urgency-content">
-                <div class="urgency-text">
-                    <span class="urgency-label">LIMITED TIME OFFER</span>
-                    <strong>FREE 21-Point Inspection</strong> with any service. Catch problems before they catch you. Call now!
-                </div>
-                <a href="tel:6572236776" class="btn btn-white">Claim Offer Now</a>
-            </div>
-        </div>
-    </section>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <nav aria-label="Mobile navigation">
+            <ul class="mobile-nav-list">
+                <li><a href="#safety-standard">Our Standard</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#health-timeline">Car Health</a></li>
+                <li><a href="#family-reviews">Reviews</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <a href="tel:6572236776" class="mobile-phone-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                Call (657) 223-6776
+            </a>
+        </nav>
+    </div>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Our Services</span>
-                <h2>Complete Auto Repair &<br>Maintenance You Can Count On</h2>
-                <p>From a quick oil change to complex engine work, Quality Auto Care handles it all with skill and integrity. We explain your options clearly before we turn a single wrench.</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                    </div>
-                    <h3>Oil Change & Lube</h3>
-                    <p>Quick, affordable oil changes using premium synthetic and conventional oils. We use the exact grade your manufacturer recommends. No pushy upsells, just what your car actually needs.</p>
+    <main>
+        <!-- ===== SECTION 1: FAMILY SAFETY HERO ===== -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-pattern"></div>
+            <div class="container hero-inner">
+                <div class="hero-badge animate-on-scroll" data-animation="fade-up">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Family-First Auto Care in Orange, CA
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-                    </div>
-                    <h3>Brake Service & Repair</h3>
-                    <p>Squeaking, grinding, or a soft brake pedal? We diagnose the problem precisely and show you what needs fixing. Honest brake repairs with zero scare tactics. Your safety comes first.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="3" x2="12" y2="7"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-                    </div>
-                    <h3>Tire Sales & Alignment</h3>
-                    <p>Competitive pricing on all major tire brands plus precision wheel alignments that extend tire life and improve fuel economy. We match any legitimate local price, guaranteed.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-                    </div>
-                    <h3>Engine Repair & Diagnostics</h3>
-                    <p>Check engine light on? Our expert technicians diagnose and repair engine issues of every complexity. From sensors to full rebuilds, we get your engine running right the first time.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V4a2 2 0 012-2h8a2 2 0 012 2v3"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg>
-                    </div>
-                    <h3>Transmission Service</h3>
-                    <p>Hard shifts, slipping, or fluid leaks? We service and repair both automatic and manual transmissions. Get an honest assessment before spending thousands at the dealer.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-                    </div>
-                    <h3>Electrical & Battery</h3>
-                    <p>Dead battery, faulty alternator, or mysterious electrical problems? We trace the root cause and fix it right the first time. No guesswork, just reliable results you count on.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                    </div>
-                    <h3>AC & Heating</h3>
-                    <p>Sweltering in the summer or freezing in the winter? We diagnose and repair AC and heating systems to keep you comfortable year round. Fast service, fair pricing.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2z"/><path d="M12 6v6l4 2"/></svg>
-                    </div>
-                    <h3>Suspension & Steering</h3>
-                    <p>Bumpy rides, uneven tire wear, or pulling to one side? We repair shocks, struts, tie rods, and power steering issues. Restore your ride quality and stay safe on the road.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Why Us Section -->
-    <section class="why-us" id="why-us">
-        <div class="container">
-            <div class="why-us-grid">
-                <div class="why-us-content">
-                    <span class="section-tag">Why Quality Auto Care?</span>
-                    <h2>Quality Repairs. Honest Pricing.<br>That's Our Promise to Orange.</h2>
-                    <p>Too many shops profit by finding "problems" you never came in for. At Quality Auto Care, we built our business on the opposite idea. Honest assessments, transparent pricing, and repairs that actually fix the issue. That's why Orange families keep coming back.</p>
-                    <div class="why-features">
-                        <div class="why-feature">
-                            <div class="why-feature-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                            </div>
-                            <div>
-                                <strong>FREE 21-Point Inspection With Every Service</strong>
-                                <p>Every time you bring your car in, we do a thorough 21-point inspection at no extra cost. Catch small issues before they become expensive repairs. That's the Quality Auto Care difference.</p>
-                            </div>
-                        </div>
-                        <div class="why-feature">
-                            <div class="why-feature-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                            </div>
-                            <div>
-                                <strong>Transparent Pricing. Always.</strong>
-                                <p>We give you a detailed quote before any work begins. If we find additional issues, we call you first. No mystery charges, no hidden fees. The price we quote is the price you pay.</p>
-                            </div>
-                        </div>
-                        <div class="why-feature">
-                            <div class="why-feature-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                            </div>
-                            <div>
-                                <strong>We Fix It Right the First Time</strong>
-                                <p>Our technicians take the time to diagnose problems correctly. We don't throw parts at a problem and hope it works. We find the root cause and fix it properly, saving you time and money.</p>
-                            </div>
-                        </div>
-                        <div class="why-feature">
-                            <div class="why-feature-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                            </div>
-                            <div>
-                                <strong>Warranty on All Repairs</strong>
-                                <p>Every repair comes with warranty coverage. We stand behind our work because we do it right. Your peace of mind is part of the service at Quality Auto Care.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="why-us-visual">
-                    <div class="stats-card">
-                        <div class="stats-number" data-count="150">150+</div>
-                        <div class="stats-label">5-Star Reviews</div>
-                        <div class="stats-divider"></div>
-                        <div class="stats-number" data-count="10">10+</div>
-                        <div class="stats-label">Years Serving Orange</div>
-                        <div class="stats-divider"></div>
-                        <div class="stats-number" data-count="3000">3,000+</div>
-                        <div class="stats-label">Cars Serviced</div>
-                        <div class="stats-divider"></div>
-                        <div class="stats-number">21</div>
-                        <div class="stats-label">Point Inspection FREE</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                <h1 class="animate-on-scroll" data-animation="fade-up">
+                    Your Family's Safety<br>Is <span class="hero-emphasis">Our Business.</span>
+                </h1>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials" id="reviews">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Customer Reviews</span>
-                <h2>Don't Take Our Word For It.<br>Read What Orange Drivers Say.</h2>
-                <p>Real reviews from real customers. No filtering, no cherry-picking. Just honest feedback from people who trust Quality Auto Care with their vehicles.</p>
-            </div>
-            <div class="reviews-grid" id="reviewsGrid">
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"Found Quality Auto Care on Yelp and decided to give them a try. Best decision ever! They were honest about what needed to be done and what could wait. No pressure at all. This is my go-to shop now."</p>
-                    <div class="review-author">
-                        <div class="review-avatar">T</div>
-                        <div>
-                            <strong>Tony N.</strong>
-                            <span>Yelp Verified Review</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"I brought my car in for a brake issue and they did the free 21-point inspection. Turns out I also needed a belt replaced that I had no idea about. They showed me the old belt and it was clearly worn. Very thorough!"</p>
-                    <div class="review-author">
-                        <div class="review-avatar">S</div>
-                        <div>
-                            <strong>Samantha K.</strong>
-                            <span>Verified Customer Review</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"Finally an honest mechanic in Orange! The dealer wanted $1,200 for a repair that Quality Auto Care did for $650. Same quality work, half the price. I wish I had found them sooner."</p>
-                    <div class="review-author">
-                        <div class="review-avatar">M</div>
-                        <div>
-                            <strong>Michael R.</strong>
-                            <span>Yelp Verified Review</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"The team here is so friendly and professional. They explained everything in terms I could understand and didn't talk down to me. My car runs perfectly now. Highly recommend to anyone in the Orange area!"</p>
-                    <div class="review-author">
-                        <div class="review-avatar">L</div>
-                        <div>
-                            <strong>Linda P.</strong>
-                            <span>Verified Customer Review</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"I've been taking both of my family's cars here for the past 3 years. They always do great work and the prices are very fair. The free inspection they do with every service gives me so much peace of mind."</p>
-                    <div class="review-author">
-                        <div class="review-avatar">K</div>
-                        <div>
-                            <strong>Kevin W.</strong>
-                            <span>Yelp Verified Review</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"My AC stopped working in July and they got me in the same day. Fixed it quickly and the price was very reasonable. Quality Auto Care is exactly what their name says. Quality work, quality people."</p>
-                    <div class="review-author">
-                        <div class="review-avatar">R</div>
-                        <div>
-                            <strong>Rachel M.</strong>
-                            <span>Verified Customer Review</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="reviews-cta">
-                <p>Join hundreds of happy Orange drivers. Experience the Quality Auto Care difference today.</p>
-                <a href="tel:6572236776" class="btn btn-primary">Call (657) 223-6776 Now</a>
-            </div>
-        </div>
-    </section>
+                <p class="hero-sub animate-on-scroll" data-animation="fade-up">
+                    When you put your family in the car, you trust that it'll get them there safely. At Quality Auto Care, we take that trust seriously. Every repair, every inspection, every recommendation is made with one question in mind: <em>Is this safe enough for my own family?</em> That's the Quality Care Standard.
+                </p>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-content">
-                    <span class="section-tag">About Quality Auto Care</span>
-                    <h2>Built on Honesty.<br>Growing Through Trust.</h2>
-                    <p>Quality Auto Care was founded with a simple mission: give Orange drivers the honest, reliable auto repair they deserve. Too many shops rely on confusion and pressure to boost profits. We do things differently.</p>
-                    <p>Our team of experienced technicians treats every vehicle like it's their own. That means no inflated bills, no unnecessary repairs, and no confusing jargon. Just clear communication, quality workmanship, and a genuine commitment to keeping you safe on the road.</p>
-                    <p>Located on W Struck Ave in the heart of Orange, we've earned the trust of our community one honest repair at a time. Whether you drive a Honda, Toyota, Ford, or BMW, we have the expertise to handle it right.</p>
-                    <div class="trust-badges">
-                        <span class="trust-badge">ASE Certified</span>
-                        <span class="trust-badge">Free 21-Point Inspection</span>
-                        <span class="trust-badge">Warranty on Repairs</span>
-                    </div>
-                </div>
-                <div class="about-details">
-                    <div class="detail-card">
-                        <h4>Experienced Technicians</h4>
-                        <p>Our team brings years of hands-on experience across all makes and models. We stay current with the latest automotive technology so your vehicle always gets expert care.</p>
-                    </div>
-                    <div class="detail-card">
-                        <h4>Free 21-Point Inspection</h4>
-                        <p>Every service includes a complimentary 21-point vehicle inspection. We check your brakes, fluids, belts, tires, and more so you always know the full health of your vehicle.</p>
-                    </div>
-                    <div class="detail-card">
-                        <h4>Warranty Protection</h4>
-                        <p>All repairs come with warranty coverage. We stand behind our work because we do it right the first time. Your confidence and safety matter most.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section" id="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Don't Ignore That Warning Light.<br>Small Problems Become Big Bills.</h2>
-                <p>Every mile you drive with an unresolved issue brings you closer to a more expensive repair. Call Quality Auto Care now and get it handled before a small fix becomes a major expense.</p>
-                <div class="cta-buttons">
-                    <a href="tel:6572236776" class="btn btn-primary btn-lg btn-pulse">
+                <div class="hero-ctas animate-on-scroll" data-animation="fade-up">
+                    <a href="tel:6572236776" class="btn btn-primary btn-lg">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                        Call Now: (657) 223-6776
+                        Call (657) 223-6776
                     </a>
-                    <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Request an Appointment</a>
+                    <a href="#contact" class="btn btn-outline btn-lg">Schedule Safety Check</a>
                 </div>
-                <p class="cta-note">Get a <strong>FREE 21-Point Inspection</strong> with any service!</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <span class="section-tag">Get In Touch</span>
-                    <h2>Schedule Your Repair Today</h2>
-                    <p>Walk-ins are welcome, but appointments get priority. Call us or fill out the form and we'll get back to you within the hour during business hours.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                            <div>
-                                <strong>Phone</strong>
-                                <a href="tel:6572236776">(657) 223-6776</a>
-                            </div>
+                <div class="hero-safety-promise animate-on-scroll" data-animation="fade-up">
+                    <div class="promise-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                    </div>
+                    <div class="promise-text">
+                        <strong>FREE 21-Point Safety Inspection</strong> with every service — because your family deserves to know your car is safe.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION 2: THE QUALITY CARE STANDARD ===== -->
+        <section class="safety-standard-section" id="safety-standard">
+            <div class="container">
+                <div class="standard-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-eyebrow">The Quality Care Standard</span>
+                    <h2 class="section-heading">What We Check.<br>What We Stand Behind.</h2>
+                    <p class="section-intro">This isn't just a checklist — it's a promise. Every time you bring your car to Quality Auto Care, we run through our 21-point safety inspection at no charge. Here's what we look at, and why each one matters for your family.</p>
+                </div>
+
+                <div class="standard-grid">
+                    <div class="standard-card animate-on-scroll" data-animation="fade-up">
+                        <div class="standard-check">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                         </div>
-                        <div class="contact-item">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                            <div>
-                                <strong>Address</strong>
-                                <span>1119 W Struck Ave<br>Orange, CA 92867</span>
-                            </div>
+                        <div class="standard-content">
+                            <h4>Brake Pad Thickness</h4>
+                            <p>Worn brakes are the #1 safety risk we see. We measure every pad and tell you exactly how much life is left — no guessing, no scare tactics.</p>
                         </div>
-                        <div class="contact-item">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        <span class="standard-tag safety-critical">Safety Critical</span>
+                    </div>
+                    <div class="standard-card animate-on-scroll" data-animation="fade-up">
+                        <div class="standard-check">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <div class="standard-content">
+                            <h4>Tire Tread & Pressure</h4>
+                            <p>Bald tires in the rain? That's a family safety emergency waiting to happen. We check tread depth on all four corners and set proper pressure.</p>
+                        </div>
+                        <span class="standard-tag safety-critical">Safety Critical</span>
+                    </div>
+                    <div class="standard-card animate-on-scroll" data-animation="fade-up">
+                        <div class="standard-check">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <div class="standard-content">
+                            <h4>Fluid Levels & Condition</h4>
+                            <p>Low brake fluid or burnt transmission fluid can lead to costly repairs — or worse, a breakdown with your kids in the car. We catch it early.</p>
+                        </div>
+                        <span class="standard-tag preventive">Preventive</span>
+                    </div>
+                    <div class="standard-card animate-on-scroll" data-animation="fade-up">
+                        <div class="standard-check">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <div class="standard-content">
+                            <h4>Steering & Suspension</h4>
+                            <p>Loose steering isn't just annoying — it's dangerous, especially at highway speeds with your family on board. We check every component.</p>
+                        </div>
+                        <span class="standard-tag safety-critical">Safety Critical</span>
+                    </div>
+                    <div class="standard-card animate-on-scroll" data-animation="fade-up">
+                        <div class="standard-check">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <div class="standard-content">
+                            <h4>Battery & Charging System</h4>
+                            <p>A dead battery at night with kids in the car? We test your battery's health and charging output so that never happens.</p>
+                        </div>
+                        <span class="standard-tag preventive">Preventive</span>
+                    </div>
+                    <div class="standard-card animate-on-scroll" data-animation="fade-up">
+                        <div class="standard-check">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <div class="standard-content">
+                            <h4>Belts & Hoses</h4>
+                            <p>A snapped serpentine belt means no power steering, no A/C, and an overheating engine. We inspect all belts and hoses for cracks and wear.</p>
+                        </div>
+                        <span class="standard-tag preventive">Preventive</span>
+                    </div>
+                    <div class="standard-card animate-on-scroll" data-animation="fade-up">
+                        <div class="standard-check">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <div class="standard-content">
+                            <h4>Lights & Wipers</h4>
+                            <p>Can you see and be seen? We check headlights, brake lights, turn signals, and wiper condition. Your visibility keeps your family safe.</p>
+                        </div>
+                        <span class="standard-tag safety-critical">Safety Critical</span>
+                    </div>
+                    <div class="standard-card full-card animate-on-scroll" data-animation="fade-up">
+                        <div class="full-card-content">
+                            <div class="full-card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                            </div>
                             <div>
-                                <strong>Hours</strong>
-                                <span>Mon-Fri: 8:00 AM - 5:30 PM<br>Sat: 8:00 AM - 2:00 PM<br>Sunday: Closed</span>
+                                <strong>That's 21 points total — all checked, all free, every visit.</strong>
+                                <p>We don't do this to find things to sell you. We do this because we believe every family deserves to know their car is safe. If something needs attention, we'll tell you honestly. If it can wait, we'll tell you that too.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm">
-                        <h3>Request an Appointment</h3>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name">Full Name *</label>
-                                <input type="text" id="name" name="name" required placeholder="John Doe">
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone *</label>
-                                <input type="tel" id="phone" name="phone" required placeholder="(657) 555-0000">
-                            </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION 3: SERVICES ===== -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-eyebrow">Our Services</span>
+                    <h2 class="section-heading">Complete Auto Care<br>Your Family Can Count On</h2>
+                    <p class="section-intro">From routine oil changes to complex engine diagnostics, every service at Quality Auto Care comes with our 21-point safety inspection. Because peace of mind should be standard, not optional.</p>
+                </div>
+
+                <!-- Safety Offer Banner -->
+                <div class="safety-offer animate-on-scroll" data-animation="fade-up">
+                    <div class="offer-shield">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <div class="offer-content">
+                        <span class="offer-label">Included With Every Service</span>
+                        <span class="offer-text"><strong>FREE 21-Point Safety Inspection</strong> — Catch problems before they catch you off guard.</span>
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="john@email.com">
+                        <h3>Oil Change & Lube</h3>
+                        <p>Quick, affordable oil changes using premium synthetic and conventional oils. We use the exact grade your manufacturer recommends. Plus our free 21-point inspection included.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="make">Vehicle Make</label>
-                                <input type="text" id="make" name="make" placeholder="Toyota, Honda, BMW...">
-                            </div>
-                            <div class="form-group">
-                                <label for="year">Year</label>
-                                <input type="text" id="year" name="year" placeholder="2020">
-                            </div>
+                        <h3>Brake Service & Repair</h3>
+                        <p>Your brakes are your family's most important safety feature. We diagnose precisely, show you what needs fixing, and never use scare tactics. Honest brake repairs you can trust.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="3" x2="12" y2="7"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
                         </div>
-                        <div class="form-group">
-                            <label for="service">Service Needed</label>
-                            <select id="service" name="service">
-                                <option value="">Select a service...</option>
-                                <option value="oil-change">Oil Change & Lube</option>
-                                <option value="brakes">Brake Service & Repair</option>
-                                <option value="tires">Tire Sales & Alignment</option>
-                                <option value="engine">Engine Repair & Diagnostics</option>
-                                <option value="transmission">Transmission Service</option>
-                                <option value="electrical">Electrical & Battery</option>
-                                <option value="ac-heating">AC & Heating</option>
-                                <option value="suspension">Suspension & Steering</option>
-                                <option value="other">Other / General Inspection</option>
-                            </select>
+                        <h3>Tire Sales & Alignment</h3>
+                        <p>Competitive pricing on all major tire brands. Precision alignment that keeps your car tracking straight and your tires wearing evenly. Your family rides on these — we take that seriously.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
                         </div>
-                        <div class="form-group">
-                            <label for="message">Describe the Issue</label>
-                            <textarea id="message" name="message" rows="3" placeholder="Tell us what's going on with your vehicle..."></textarea>
+                        <h3>Engine Repair & Diagnostics</h3>
+                        <p>Check engine light on? Don't ignore it — it's your car's way of asking for help. We diagnose it right the first time and explain it clearly. Same quality as the dealer, without the dealer price.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V4a2 2 0 012-2h8a2 2 0 012 2v3"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Schedule My Appointment</button>
-                        <p class="form-note">We'll respond within 1 hour during business hours.</p>
-                    </form>
+                        <h3>Transmission Service</h3>
+                        <p>Hard shifts or slipping? Transmission issues can leave your family stranded. Get an honest assessment before spending thousands. We'll always tell you the truth about what it really needs.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <h3>Electrical & Battery</h3>
+                        <p>Dead battery? Faulty alternator? Mysterious electrical issues? We trace the root cause — no guesswork. Your car's electrical system powers everything from headlights to airbags. We keep it reliable.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>AC & Heating</h3>
+                        <p>Sweltering summer or freezing winter — your family deserves comfort. We diagnose and repair AC and heating systems fast. No one should sit in a freezing car on the way to school.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll" data-animation="fade-up">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2z"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>Suspension & Steering</h3>
+                        <p>Bumpy ride? Pulling to one side? Your suspension keeps your car stable and predictable — especially important when your family's in the car. We fix it right.</p>
+                    </div>
                 </div>
             </div>
-            <div class="map-wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.8!2d-117.8625!3d33.8032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7a0b0b0b0b2%3A0x123456789!2sQuality+Auto+Care!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+        <!-- ===== SECTION 4: YOUR CAR'S HEALTH TIMELINE ===== -->
+        <section class="health-timeline-section" id="health-timeline">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-eyebrow light">Your Car's Health Timeline</span>
+                    <h2 class="section-heading light">Prevent Problems Before<br>They Put Your Family at Risk.</h2>
+                    <p class="section-intro light">Every car has a health timeline. Stay ahead of it, and you avoid breakdowns, surprise bills, and safety risks. Fall behind, and small issues become big emergencies. Here's what to watch for at every stage.</p>
+                </div>
+
+                <div class="timeline-container animate-on-scroll" data-animation="fade-up">
+                    <div class="timeline-track">
+                        <div class="timeline-node">
+                            <div class="node-marker green"></div>
+                            <div class="node-content">
+                                <div class="node-mileage">0–30K Miles</div>
+                                <h4>The Healthy Years</h4>
+                                <p>Your car is in its prime. Routine oil changes, tire rotations, and fluid checks keep everything running smoothly. Small investment, big protection.</p>
+                                <div class="node-tasks">
+                                    <span class="task">Oil changes</span>
+                                    <span class="task">Tire rotations</span>
+                                    <span class="task">Filter replacements</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-node">
+                            <div class="node-marker yellow"></div>
+                            <div class="node-content">
+                                <div class="node-mileage">30K–60K Miles</div>
+                                <h4>Watch for Wear</h4>
+                                <p>Brakes, belts, and tires start showing their age. This is where our free 21-point inspection really pays off — catching wear before it becomes a safety issue for your family.</p>
+                                <div class="node-tasks">
+                                    <span class="task">Brake inspection</span>
+                                    <span class="task">Belt checks</span>
+                                    <span class="task">Fluid flush</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-node">
+                            <div class="node-marker orange"></div>
+                            <div class="node-content">
+                                <div class="node-mileage">60K–100K Miles</div>
+                                <h4>Preventive Care Zone</h4>
+                                <p>Timing belts, spark plugs, and suspension components need attention. Proactive maintenance now prevents costly repairs — and dangerous breakdowns — later.</p>
+                                <div class="node-tasks">
+                                    <span class="task">Timing belt</span>
+                                    <span class="task">Spark plugs</span>
+                                    <span class="task">Suspension check</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-node">
+                            <div class="node-marker red"></div>
+                            <div class="node-content">
+                                <div class="node-mileage">100K+ Miles</div>
+                                <h4>Expert Attention Needed</h4>
+                                <p>High-mileage vehicles need a team that knows what to look for. We specialize in keeping older cars safe and reliable — because a well-maintained car protects your family just as well as a new one.</p>
+                                <div class="node-tasks">
+                                    <span class="task">Full diagnostics</span>
+                                    <span class="task">Seal & gasket check</span>
+                                    <span class="task">Comprehensive inspection</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION 5: FAMILY TESTIMONIALS ===== -->
+        <section class="family-reviews-section" id="family-reviews">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-eyebrow">Family Reviews</span>
+                    <h2 class="section-heading">Families Trust Us.<br>Here's Why.</h2>
+                    <p class="section-intro">These aren't just customers — they're parents, grandparents, and caregivers who trust Quality Auto Care with their family's safety. Real stories from real families in Orange.</p>
+                </div>
+
+                <div class="reviews-grid">
+                    <div class="review-card animate-on-scroll" data-animation="fade-up">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"Found Quality Auto Care on Yelp and decided to give them a try. Best decision ever! They were honest about what needed to be done and what could wait. No pressure at all. This is my go-to shop now."</p>
+                        <div class="review-author">
+                            <div class="author-avatar">TN</div>
+                            <div>
+                                <strong>Tony N.</strong>
+                                <span>Yelp · Orange, CA</span>
+                            </div>
+                        </div>
+                        <span class="review-family-tag">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                            Family of 4
+                        </span>
+                    </div>
+                    <div class="review-card animate-on-scroll" data-animation="fade-up">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"I brought my car in for a brake issue and they did the free 21-point inspection. Turns out I also needed a belt replaced that I had no idea about. They showed me the old belt and it was clearly worn. Very thorough!"</p>
+                        <div class="review-author">
+                            <div class="author-avatar">SK</div>
+                            <div>
+                                <strong>Samantha K.</strong>
+                                <span>Verified Customer · Orange</span>
+                            </div>
+                        </div>
+                        <span class="review-family-tag">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            Mom of 2
+                        </span>
+                    </div>
+                    <div class="review-card animate-on-scroll" data-animation="fade-up">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"Finally an honest mechanic in Orange! The dealer wanted $1,200 for a repair that Quality Auto Care did for $650. Same quality work, half the price. I wish I had found them sooner."</p>
+                        <div class="review-author">
+                            <div class="author-avatar">MR</div>
+                            <div>
+                                <strong>Michael R.</strong>
+                                <span>Yelp · Orange, CA</span>
+                            </div>
+                        </div>
+                        <span class="review-family-tag">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                            Family of 5
+                        </span>
+                    </div>
+                    <div class="review-card animate-on-scroll" data-animation="fade-up">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"I've been taking both of my family's cars here for the past 3 years. They always do great work and the prices are very fair. The free inspection they do with every service gives me so much peace of mind."</p>
+                        <div class="review-author">
+                            <div class="author-avatar">KW</div>
+                            <div>
+                                <strong>Kevin W.</strong>
+                                <span>Yelp · Orange, CA</span>
+                            </div>
+                        </div>
+                        <span class="review-family-tag">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                            Dad of 3
+                        </span>
+                    </div>
+                    <div class="review-card animate-on-scroll" data-animation="fade-up">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"The team here is so friendly and professional. They explained everything in terms I could understand and didn't talk down to me. My car runs perfectly now. Highly recommend to anyone in the Orange area!"</p>
+                        <div class="review-author">
+                            <div class="author-avatar">LP</div>
+                            <div>
+                                <strong>Linda P.</strong>
+                                <span>Verified Customer · Orange</span>
+                            </div>
+                        </div>
+                        <span class="review-family-tag">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            Grandparent
+                        </span>
+                    </div>
+                    <div class="review-card animate-on-scroll" data-animation="fade-up">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-text">"My AC stopped working in July and they got me in the same day. Fixed it quickly and the price was very reasonable. Quality Auto Care is exactly what their name says. Quality work, quality people."</p>
+                        <div class="review-author">
+                            <div class="author-avatar">RM</div>
+                            <div>
+                                <strong>Rachel M.</strong>
+                                <span>Verified Customer · Orange</span>
+                            </div>
+                        </div>
+                        <span class="review-family-tag">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                            Mom of 2
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION 6: ABOUT ===== -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content animate-on-scroll" data-animation="fade-up">
+                        <span class="section-eyebrow">About Quality Auto Care</span>
+                        <h2 class="section-heading">Built on Honesty.<br>Growing Through Trust.</h2>
+                        <p>Quality Auto Care was founded with a simple mission: give Orange families the honest, reliable auto repair they deserve. Too many shops rely on confusion and pressure to boost profits. We built our business on the opposite idea.</p>
+                        <p>Our team of experienced technicians treats every vehicle like it's their own family's car. That means no inflated bills, no unnecessary repairs, and no confusing jargon. Just clear communication, quality workmanship, and a genuine commitment to keeping your family safe on the road.</p>
+                        <p>Located on W Struck Ave in the heart of Orange, we've earned the trust of our community one honest repair at a time. Whether you drive a Honda, Toyota, Ford, or BMW — we have the expertise to handle it right.</p>
+                        <div class="trust-badges">
+                            <span class="trust-badge">ASE Certified</span>
+                            <span class="trust-badge">Free 21-Point Inspection</span>
+                            <span class="trust-badge">Warranty on Repairs</span>
+                        </div>
+                    </div>
+                    <div class="about-sidebar animate-on-scroll" data-animation="fade-up">
+                        <div class="hours-card">
+                            <h4>Shop Hours</h4>
+                            <div class="hours-list">
+                                <div class="hours-row">
+                                    <span>Monday — Friday</span>
+                                    <span>8:00 AM — 5:30 PM</span>
+                                </div>
+                                <div class="hours-row">
+                                    <span>Saturday</span>
+                                    <span>8:00 AM — 2:00 PM</span>
+                                </div>
+                                <div class="hours-row closed">
+                                    <span>Sunday</span>
+                                    <span>Closed</span>
+                                </div>
+                            </div>
+                            <div class="hours-divider"></div>
+                            <h4>Location</h4>
+                            <p class="hours-address">1119 W Struck Ave<br>Orange, CA 92867</p>
+                            <a href="tel:6572236776" class="btn btn-primary btn-full">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                                (657) 223-6776
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION 7: CTA ===== -->
+        <section class="cta-section" id="cta">
+            <div class="container">
+                <div class="cta-content animate-on-scroll" data-animation="fade-up">
+                    <span class="section-eyebrow light">Your Family Deserves Safe Roads</span>
+                    <h2 class="cta-heading">Don't Wait for a Warning Light.<br>Schedule a Safety Check Today.</h2>
+                    <p class="cta-text">A small issue today can become a dangerous situation tomorrow. Protect your family with a free 21-point safety inspection. No obligation, no pressure — just honest answers about your car's condition.</p>
+                    <div class="cta-actions">
+                        <a href="tel:6572236776" class="btn btn-white btn-lg">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            Call (657) 223-6776
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Schedule Online</a>
+                    </div>
+                    <p class="cta-note">Free 21-point inspection with every service · Walk-ins welcome</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION 8: CONTACT ===== -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-eyebrow">Get In Touch</span>
+                    <h2 class="section-heading">Schedule Your Safety Check</h2>
+                    <p class="section-intro">Fill out the form below and we'll call you within 1 hour during business hours. Walk-ins are always welcome.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-form-wrapper animate-on-scroll" data-animation="fade-up">
+                        <form id="appointmentForm" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fullName">Full Name <span class="required">*</span></label>
+                                    <input type="text" id="fullName" name="fullName" required autocomplete="name" placeholder="Jane Smith">
+                                    <span class="field-error" id="fullName-error" role="alert"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone <span class="required">*</span></label>
+                                    <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="(657) 555-1234">
+                                    <span class="field-error" id="phone-error" role="alert"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@email.com">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="make">Vehicle Make & Model</label>
+                                    <input type="text" id="make" name="make" placeholder="Toyota Camry">
+                                </div>
+                                <div class="form-group">
+                                    <label for="year">Year</label>
+                                    <input type="text" id="year" name="year" placeholder="2020">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service...</option>
+                                    <option value="Oil Change">Oil Change & Lube</option>
+                                    <option value="Brakes">Brake Service & Repair</option>
+                                    <option value="Tires">Tire Sales & Alignment</option>
+                                    <option value="Engine">Engine Repair & Diagnostics</option>
+                                    <option value="Transmission">Transmission Service</option>
+                                    <option value="Electrical">Electrical & Battery</option>
+                                    <option value="AC">AC & Heating</option>
+                                    <option value="Suspension">Suspension & Steering</option>
+                                    <option value="Safety Check">Free Safety Inspection</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="issue">What's Going On?</label>
+                                <textarea id="issue" name="issue" placeholder="Tell us about any concerns — sounds, warning lights, smells, anything that worries you about your car's safety..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-full">Request Appointment</button>
+                            <p class="form-disclaimer">We'll respond within 1 hour during business hours. Your family's safety is our priority.</p>
+                        </form>
+                        <div class="form-success" id="formSuccess">
+                            <div class="success-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                            </div>
+                            <h4>Request Received!</h4>
+                            <p>We'll call you within the hour during business hours. For immediate service, call <a href="tel:6572236776">(657) 223-6776</a>.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-map-wrapper animate-on-scroll" data-animation="fade-up">
+                        <div class="map-container">
+                            <iframe src="https://maps.google.com/maps?q=1119+W+Struck+Ave,+Orange,+CA+92867&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Quality Auto Care Location"></iframe>
+                        </div>
+                        <div class="map-info">
+                            <h3>Visit Quality Auto Care</h3>
+                            <p>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                1119 W Struck Ave, Orange, CA 92867
+                            </p>
+                            <p>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                                <a href="tel:6572236776">(657) 223-6776</a>
+                            </p>
+                            <p>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                                Mon–Fri 8AM–5:30PM · Sat 8AM–2PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <div class="logo">
-                        <span class="logo-icon">QA</span>
-                        <div class="logo-text">
-                            <span class="logo-name">Quality Auto Care</span>
-                            <span class="logo-tagline">Quality You Can Trust in Orange, CA</span>
+                    <div class="footer-logo">
+                        <div class="logo-shield">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fefce8" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <div>
+                            <span class="footer-brand-name">Quality Auto Care</span>
+                            <span class="footer-brand-sub">Your Family's Safety Is Our Business</span>
                         </div>
                     </div>
-                    <p>Orange, CA's trusted auto repair shop. Honest service, fair pricing, and a free 21-point inspection with every service.</p>
+                    <p>Orange, CA's family-first auto repair. Every service includes a free 21-point safety inspection because your family deserves to know your car is safe.</p>
                 </div>
-                <div class="footer-links">
+                <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
+                        <li><a href="#safety-standard">Our Standard</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#why-us">Why Quality Auto Care</a></li>
-                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#health-timeline">Car Health</a></li>
+                        <li><a href="#family-reviews">Reviews</a></li>
                         <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-links">
+                <div class="footer-col">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="#services">Oil Change</a></li>
-                        <li><a href="#services">Brake Repair</a></li>
+                        <li><a href="#services">Oil Change & Lube</a></li>
+                        <li><a href="#services">Brake Service</a></li>
+                        <li><a href="#services">Engine Diagnostics</a></li>
                         <li><a href="#services">Tire Sales</a></li>
-                        <li><a href="#services">Engine Repair</a></li>
                         <li><a href="#services">AC & Heating</a></li>
                     </ul>
                 </div>
-                <div class="footer-contact">
+                <div class="footer-col">
                     <h4>Contact Us</h4>
-                    <p><a href="tel:6572236776">(657) 223-6776</a></p>
-                    <p>1119 W Struck Ave<br>Orange, CA 92867</p>
-                    <p>Mon-Fri: 8AM - 5:30PM<br>Sat: 8AM - 2PM</p>
+                    <p class="footer-contact-line">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        <a href="tel:6572236776">(657) 223-6776</a>
+                    </p>
+                    <p class="footer-contact-line">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        1119 W Struck Ave, Orange, CA
+                    </p>
+                    <p class="footer-contact-line">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        Mon–Fri 8AM–5:30PM · Sat 8AM–2PM
+                    </p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Quality Auto Care. All rights reserved.</p>
+                <p>&copy; 2025 Quality Auto Care. All rights reserved.</p>
+                <p class="footer-note">Your family's safety is our business.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Mobile CTA -->
-    <div class="mobile-cta" id="mobileCta">
-        <a href="tel:6572236776" class="btn btn-primary btn-full">
+    <!-- Mobile CTA Bar -->
+    <div class="mobile-cta-bar" id="mobileCtaBar">
+        <a href="tel:6572236776" class="mobile-cta-call">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            Call Now: (657) 223-6776
+            Call Now
+        </a>
+        <a href="#contact" class="mobile-cta-schedule">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            Safety Check
         </a>
     </div>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
 
     <script src="script.js"></script>
 </body>
